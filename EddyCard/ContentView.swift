@@ -16,6 +16,7 @@ struct ContentView: View {
                 Image("eldorone")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
+                    .frame(width: 200, height: 200, alignment: .center)
                 Text("Eldor Alikuvvatov")
                     .font(Font.custom("YatraOne-Regular", size: 40))
                     .bold()
