@@ -13,6 +13,7 @@
 		492C6CC5291924F200B6DAAA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 492C6CC4291924F200B6DAAA /* Preview Assets.xcassets */; };
 		492C6CCD2919292200B6DAAA /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 492C6CCC2919292200B6DAAA /* Pacifico-Regular.ttf */; };
 		492C6CD029192AC500B6DAAA /* YatraOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 492C6CCF29192AC500B6DAAA /* YatraOne-Regular.ttf */; };
+		492C6CD229193AC900B6DAAA /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492C6CD129193AC900B6DAAA /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		492C6CCC2919292200B6DAAA /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
 		492C6CCE29192A7100B6DAAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		492C6CCF29192AC500B6DAAA /* YatraOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "YatraOne-Regular.ttf"; sourceTree = "<group>"; };
+		492C6CD129193AC900B6DAAA /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,11 +58,12 @@
 		492C6CBC291924EE00B6DAAA /* EddyCard */ = {
 			isa = PBXGroup;
 			children = (
-				492C6CCE29192A7100B6DAAA /* Info.plist */,
-				492C6CCB2919290A00B6DAAA /* Fonts */,
 				492C6CBD291924EE00B6DAAA /* EddyCardApp.swift */,
 				492C6CBF291924EE00B6DAAA /* ContentView.swift */,
+				492C6CD129193AC900B6DAAA /* InfoView.swift */,
 				492C6CC1291924F200B6DAAA /* Assets.xcassets */,
+				492C6CCB2919290A00B6DAAA /* Fonts */,
+				492C6CCE29192A7100B6DAAA /* Info.plist */,
 				492C6CC3291924F200B6DAAA /* Preview Content */,
 			);
 			path = EddyCard;
@@ -156,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				492C6CC0291924EE00B6DAAA /* ContentView.swift in Sources */,
+				492C6CD229193AC900B6DAAA /* InfoView.swift in Sources */,
 				492C6CBE291924EE00B6DAAA /* EddyCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
