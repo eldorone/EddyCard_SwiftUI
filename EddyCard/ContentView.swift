@@ -12,10 +12,19 @@ struct ContentView: View {
         ZStack {
             Color(red: 0.18, green: 0.80, blue: 0.44, opacity: 1.00)
                 .edgesIgnoringSafeArea(.all)
-            Text("Eldor Alikuvvatov")
-                .font(Font.custom("YatraOne-Regular", size: 40))
-                .bold()
+            VStack {
+                Image("eldorone")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                Text("Eldor Alikuvvatov")
+                    .font(Font.custom("YatraOne-Regular", size: 40))
+                    .bold()
                 .foregroundColor(.black)
+                Text("iOS Developer")
+                    .foregroundColor(.black)
+                    .font(.system(size: 25))
+                    .bold()
+            }
                 
         }
         
