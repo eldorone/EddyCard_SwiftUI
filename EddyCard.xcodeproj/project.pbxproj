@@ -12,6 +12,7 @@
 		492C6CC2291924F200B6DAAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 492C6CC1291924F200B6DAAA /* Assets.xcassets */; };
 		492C6CC5291924F200B6DAAA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 492C6CC4291924F200B6DAAA /* Preview Assets.xcassets */; };
 		492C6CCD2919292200B6DAAA /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 492C6CCC2919292200B6DAAA /* Pacifico-Regular.ttf */; };
+		492C6CD029192AC500B6DAAA /* YatraOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 492C6CCF29192AC500B6DAAA /* YatraOne-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,8 @@
 		492C6CC1291924F200B6DAAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		492C6CC4291924F200B6DAAA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		492C6CCC2919292200B6DAAA /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		492C6CCE29192A7100B6DAAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		492C6CCF29192AC500B6DAAA /* YatraOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "YatraOne-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +56,7 @@
 		492C6CBC291924EE00B6DAAA /* EddyCard */ = {
 			isa = PBXGroup;
 			children = (
+				492C6CCE29192A7100B6DAAA /* Info.plist */,
 				492C6CCB2919290A00B6DAAA /* Fonts */,
 				492C6CBD291924EE00B6DAAA /* EddyCardApp.swift */,
 				492C6CBF291924EE00B6DAAA /* ContentView.swift */,
@@ -74,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				492C6CCC2919292200B6DAAA /* Pacifico-Regular.ttf */,
+				492C6CCF29192AC500B6DAAA /* YatraOne-Regular.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -138,6 +143,7 @@
 			files = (
 				492C6CCD2919292200B6DAAA /* Pacifico-Regular.ttf in Resources */,
 				492C6CC5291924F200B6DAAA /* Preview Assets.xcassets in Resources */,
+				492C6CD029192AC500B6DAAA /* YatraOne-Regular.ttf in Resources */,
 				492C6CC2291924F200B6DAAA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +288,7 @@
 				DEVELOPMENT_TEAM = NX4LKKT924;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EddyCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -311,6 +318,7 @@
 				DEVELOPMENT_TEAM = NX4LKKT924;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EddyCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

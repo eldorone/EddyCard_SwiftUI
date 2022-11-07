@@ -13,7 +13,7 @@ struct ContentView: View {
             Color(red: 0.18, green: 0.80, blue: 0.44, opacity: 1.00)
                 .edgesIgnoringSafeArea(.all)
             Text("Eldor Alikuvvatov")
-                .font(.title)
+                .font(Font.custom("YatraOne-Regular", size: 40))
                 .bold()
                 .foregroundColor(.black)
                 
