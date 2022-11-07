@@ -30,9 +30,12 @@ struct ContentView: View {
                 
                 Divider()
                 RoundedRectangle(cornerRadius: 30)
+                    .frame(width: 390, height: 40)
                     .foregroundColor(.white)
-                    .overlay(Text("+82 10 1122 3344").foregroundColor(.black))
-                
+                    .overlay(Text("+82 10 1122 3344")
+                        .bold()
+                        .foregroundColor(.black))
+                        .font(.system(size: 18))
                    
             }
                 
