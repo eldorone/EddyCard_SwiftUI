@@ -20,7 +20,7 @@ struct ContentView: View {
                     .clipShape(Circle())
                     .overlay(Circle().stroke(Color.black, lineWidth: 2))
                 Text("Eldor Alikuvvatov")
-                    .font(Font.custom("YatraOne-Regular", size: 40))
+                    .font(Font.custom("Pacifico-Regular", size: 40))
                     .bold()
                 .foregroundColor(.black)
                 Text("iOS Developer")
