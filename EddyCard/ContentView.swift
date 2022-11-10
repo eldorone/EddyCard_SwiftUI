@@ -25,7 +25,7 @@ struct ContentView: View {
                 .foregroundColor(.black)
                 Text("iOS Developer")
                     .foregroundColor(.black)
-                    .font(.system(size: 25))
+                    .font(Font.custom("YatraOne-Regular", size: 25))
                     .bold()
                 
                 Divider()
