@@ -16,7 +16,7 @@ struct ContentView: View {
                 Image("eldoralikuvvatov")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
-                    .frame(width: 250, height: 250, alignment: .center)
+                    .frame(width: 300, height: 300, alignment: .center)
                     .clipShape(Circle())
                     .overlay(Circle().stroke(Color.black, lineWidth: 2))
                 Text("Eldor Alikuvvatov")
