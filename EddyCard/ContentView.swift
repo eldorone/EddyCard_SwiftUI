@@ -13,7 +13,7 @@ struct ContentView: View {
             Color("BrandYellowColor")
                 .edgesIgnoringSafeArea(.all)
             VStack {
-                Image("eldorone")
+                Image("eldoralikuvvatov")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 250, height: 250, alignment: .center)
